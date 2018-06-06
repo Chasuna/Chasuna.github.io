@@ -1,0 +1,42 @@
+img {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+    
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+    display: table;
+    height: 400px;
+    margin: 0 auto;
+    width: 300px;
+}
+.content {
+    font-family: 'Caveat', cursive;
+	font-size: 3.5vw; 
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top:30%;
+    left:20%;
+    right:20%;
+}
+
+}
+.container1 {
+	display: table;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.button {
+	position: absolute;
+	top:70%;
+	left:45%;
+    right:45%;
+}
